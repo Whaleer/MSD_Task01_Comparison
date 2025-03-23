@@ -6,19 +6,14 @@ This repository contains implementations of various state-of-the-art deep learni
 ## Implemented Models
 
 ### 1. Attention U-Net
-An extension of the standard U-Net architecture that incorporates attention gates to focus on relevant target structures of varying shapes and sizes.
 
 ### 2. SegResNet
-A powerful segmentation network that combines residual blocks with a U-Net-like encoder-decoder structure, offering improved gradient flow and feature representation.
 
 ### 3. 3D U-Net
-The 3D adaptation of the classic U-Net architecture, specifically designed for volumetric medical image segmentation.
 
-### 4. UNETR (UNEt TRansformer)
-A novel architecture that leverages transformer-based encoders combined with CNN decoders, effectively capturing global context while maintaining spatial information.
+### 4. UNETR 
 
 ### 5. SwinUNETR
-An advanced model that integrates the Swin Transformer into a U-Net-like structure, providing hierarchical feature representation with shifted windows for efficient and effective segmentation.
 
 ## Usage
 Each model implementation is contained in its respective directory with training and inference scripts. Please refer to the specific model directories for detailed usage instructions.
